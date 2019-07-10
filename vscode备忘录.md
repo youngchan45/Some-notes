@@ -16,7 +16,7 @@
 
    点击底部状态栏的（符号会对应改变），将代码提交到远程仓库
 
-   ![1562730183655](D:\github\笔记仓库\Some-notes\img\1562730183655.png)
+   ![1562730183655](https://github.com/youngchan45/Some-notes/blob/master/img/1562730183655.png)
 
 4. 每次提交都会要求填入账号密码，可在git bash中进行配置（待验证）
 
