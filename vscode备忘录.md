@@ -6,7 +6,7 @@
 
    文件修改后，源代码管理会显示所修改的文件，点击将文件保存到暂存区
 
-   ![1562729670721](D:\github\笔记仓库\Some-notes\img\1562729670721.png)
+   ![1562729670721](https://github.com/youngchan45/Some-notes/blob/master/img/1562729670721.png)
 
 2. commit -m""
 
