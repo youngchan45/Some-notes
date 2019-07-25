@@ -112,7 +112,7 @@
   
 auto-fill:
   
-  ![1564034175978](https://github.com/youngchan45/Some-notes/blob/master/img/fill.png)
+  ![img](https://github.com/youngchan45/Some-notes/blob/master/img/fill.png)
   
   auto-fit:
   
