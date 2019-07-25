@@ -116,21 +116,21 @@
 
 auto-fill:
 
-  ![1564034175978](C:\Users\Young\AppData\Roaming\Typora\typora-user-images\1564034175978.png)
+  ![1564034175978](https://github.com/youngchan45/Some-notes/blob/master/img/fill.png)
 
   auto-fit:
 
-  ![1564034212673](C:\Users\Young\AppData\Roaming\Typora\typora-user-images\1564034212673.png)
+  ![1564034212673](https://github.com/youngchan45/Some-notes/blob/master/img/fit.png)
 
 2. 当一行的宽度足够，两者都是随着宽度增大而增加列数，区别在于：
 
   auto-fill尸位素餐，尽可能地容纳更多的列，即使是空的：
 
-  ![1564034449468](C:\Users\Young\AppData\Roaming\Typora\typora-user-images\1564034449468.png)
+  ![1564034449468](https://github.com/youngchan45/Some-notes/blob/master/img/%E4%B8%8D%E7%94%A8%E6%8D%A2%E8%A1%8C-fill.png)
 
   auto-fit则用已有的列去扩张占满一行里剩下的空间，每列增加的宽度为剩下的空间去平均分给它们：
 
-  ![1564034637338](C:\Users\Young\AppData\Roaming\Typora\typora-user-images\1564034637338.png)
+  ![1564034637338](https://github.com/youngchan45/Some-notes/blob/master/img/%E4%B8%8D%E7%94%A8%E6%8D%A2%E8%A1%8C-fit.png)
 
   
 
