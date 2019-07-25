@@ -1,6 +1,6 @@
 字符串和变量相连记得使用+相接，且当字符串里面有嵌套的单/双引号时，应使用内外部单双引号进行区分：
 
-![https://github.com/youngchan45/Some-notes/blob/master/img/1561452285294.png)
+![img](https://github.com/youngchan45/Some-notes/blob/master/img/1561452285294.png)
 
 
 
