@@ -116,7 +116,7 @@ auto-fill:
   
   auto-fit:
   
-  ![1564034212673](https://github.com/youngchan45/Some-notes/blob/master/img/fit.png)
+  ![img](https://github.com/youngchan45/Some-notes/blob/master/img/fit.png)
   
   当一行的宽度足够，两者都是随着宽度增大而增加列数，区别在于：
   
@@ -127,7 +127,7 @@ auto-fill:
   auto-fit则用已有的列去扩张占满一行里剩下的空间，每列增加的宽度为剩下的空间去平均分给它们：
   
   ![img](https://github.com/youngchan45/Some-notes/blob/master/img/%E4%B8%8D%E7%94%A8%E6%8D%A2%E8%A1%8C-fit.png)
-  
+  ![img](https://github.com/youngchan45/Some-notes/blob/master/img/1561452285294.png)
   
   
   
