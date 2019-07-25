@@ -99,35 +99,39 @@
   ```css
   grid-template-column: repeat(auto-fit,minmax(200px,1fr) );    // 这个格式看起来虽然复杂，但和函数repeat()一样的，auto-fit为重复的数量，minmax(200px,1fr)为重复的值
   给定一个元素的最小宽度，该元素可以根据窗口的大小来显示该元素的加宽和变窄，在小于最小宽度时换行
-```
-  
-相同点：
-  
+  ```
+- 
+  相同点：
+
+
   1. 尽可能地创建轨道
 2. 剩下的空间要是不足一个轨道，则把这个轨道平均分配给已有的轨道
-  
-不同点：
-  
-  当视口的宽度大到能够容纳额外列时，才可以看出差别；如果视口宽度过小，则两者都需要换行，看不出区别：
-  
+
+- 不同点：
+
+
+  当视口的宽度大到能够容纳额外列时，才可以看出差别；
+
+1. 如果视口宽度过小，则两者都需要换行，看不出区别：
+
 auto-fill:
-  
-  ![img](https://github.com/youngchan45/Some-notes/blob/master/img/fill.png)
-  
+
+  ![1564034175978](C:\Users\Young\AppData\Roaming\Typora\typora-user-images\1564034175978.png)
+
   auto-fit:
-  
-  ![img](https://github.com/youngchan45/Some-notes/blob/master/img/fit.png)
-  
-  当一行的宽度足够，两者都是随着宽度增大而增加列数，区别在于：
-  
+
+  ![1564034212673](C:\Users\Young\AppData\Roaming\Typora\typora-user-images\1564034212673.png)
+
+2. 当一行的宽度足够，两者都是随着宽度增大而增加列数，区别在于：
+
   auto-fill尸位素餐，尽可能地容纳更多的列，即使是空的：
-  
-  ![1564034449468](https://github.com/youngchan45/Some-notes/blob/master/img/%E4%B8%8D%E7%94%A8%E6%8D%A2%E8%A1%8C-fill.png)
-  
+
+  ![1564034449468](C:\Users\Young\AppData\Roaming\Typora\typora-user-images\1564034449468.png)
+
   auto-fit则用已有的列去扩张占满一行里剩下的空间，每列增加的宽度为剩下的空间去平均分给它们：
+
+  ![1564034637338](C:\Users\Young\AppData\Roaming\Typora\typora-user-images\1564034637338.png)
+
   
-  ![img](https://github.com/youngchan45/Some-notes/blob/master/img/%E4%B8%8D%E7%94%A8%E6%8D%A2%E8%A1%8C-fit.png)
-  ![img](https://github.com/youngchan45/Some-notes/blob/master/img/1561452285294.png)
-  
-  
+
   
