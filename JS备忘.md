@@ -18,7 +18,7 @@
   ../上一级的文件
   
   #### rem匹配函数（凯源）
-  -```function setFontSize() {
+  ```function setFontSize() {
     let docEl = document.documentElement,
         resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
         recalc = function () {
