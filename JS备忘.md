@@ -16,3 +16,22 @@
   
   ./ 同一级的文件
   ../上一级的文件
+  
+  #### rem匹配函数（凯源）
+  -```function setFontSize() {
+    let docEl = document.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+            let clientWidth = docEl.clientWidth;
+            if (clientWidth >= 640) {
+                clientWidth = 640
+            }
+            if (clientWidth === undefined) return;
+            docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+        };
+    if (document.addEventListener === undefined) return;
+    window.addEventListener(resizeEvt, recalc, false);
+    document.addEventListener('DOMContentLoaded', recalc, false);
+    recalc();
+}
+```
