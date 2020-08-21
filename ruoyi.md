@@ -1,0 +1,3 @@
+params是添加到url的请求字符串中，用于get请求
+
+data是添加到请求体body中，用于post请求
